@@ -1,0 +1,15 @@
+[package]
+name = "prototype"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+clap = { version = "4.2", features = ["derive"] }
+config = "0.13.3"
+anyhow = "1.0.70"
+lazy_static = "1.4.0"
+rayon = "1.7.0"
+tokio = { version = "1.12.0", features = ["full"] }
